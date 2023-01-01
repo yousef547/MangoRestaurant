@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EN01RuQsUL5m7ZDQtMc99LXRYpWSiTyErW3g2R+jiZoG6lXNGfxmV8PaywvQWxsXo0DPFqyEj0xV3rg+uj5dVw==",
+  "success": true,
+  "projectFilePath": "D:\\New folder\\.NET Core Microservices - The Complete Guide (.NET 6 MVC)\\MangoRestaurant\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AL_hamd\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
