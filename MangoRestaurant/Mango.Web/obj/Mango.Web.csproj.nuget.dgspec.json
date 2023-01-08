@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New folder\\.NET Core Microservices - The Complete Guide (.NET 6 MVC)\\MangoRestaurant\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj": {}
+    "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj": {}
   },
   "projects": {
-    "D:\\New folder\\.NET Core Microservices - The Complete Guide (.NET 6 MVC)\\MangoRestaurant\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj": {
+    "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\.NET Core Microservices - The Complete Guide (.NET 6 MVC)\\MangoRestaurant\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj",
+        "projectUniqueName": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj",
         "projectName": "Mango.Web",
-        "projectPath": "D:\\New folder\\.NET Core Microservices - The Complete Guide (.NET 6 MVC)\\MangoRestaurant\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj",
+        "projectPath": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj",
         "packagesPath": "C:\\Users\\AL_hamd\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\.NET Core Microservices - The Complete Guide (.NET 6 MVC)\\MangoRestaurant\\MangoRestaurant\\Mango.Web\\obj\\",
+        "outputPath": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AL_hamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.0, )"
             }
           },
           "imports": [

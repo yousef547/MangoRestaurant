@@ -1,14 +1,47 @@
 using Mango.Web;
 using Mango.Web.Services;
 using Mango.Web.Services.IServices;
+using Microsoft.AspNetCore.Authentication;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddHttpClient<IProductServices, ProductServices>();
+builder.Services.AddHttpClient<ICartServices, CartServices>();
+builder.Services.AddHttpClient<ICouponServices, CouponServices>();
+
+
 SD.ProductAPIBase = builder.Configuration["ServiceUrls:ProductAPI"];
+SD.ShoppingCartAPIBase = builder.Configuration["ServiceUrls:ShoppingCartApi"];
+SD.CuopnAPIBase = builder.Configuration["ServiceUrls:CouponApi"];
+
+
 builder.Services.AddScoped<IProductServices, ProductServices>();
-// Add services to the container.
+builder.Services.AddScoped<ICartServices, CartServices>();
+builder.Services.AddScoped<ICouponServices, CouponServices>();
+
+
 builder.Services.AddControllersWithViews();
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultScheme = "Cookies";
+    options.DefaultChallengeScheme = "oidc";
+}).AddCookie("Cookies", c => c.ExpireTimeSpan = TimeSpan.FromMinutes(10)).AddOpenIdConnect("oidc", options =>
+{
+    options.Authority = builder.Configuration["ServiceUrls:IdentityAPI"];
+    options.GetClaimsFromUserInfoEndpoint = true;
+    options.ClientId = "mango";
+    options.ClientSecret = "secret";
+    options.ResponseType = "code";
+    options.ClaimActions.MapJsonKey("role", "role", "role");
+    options.ClaimActions.MapJsonKey("sub", "sub", "sub");
+    options.TokenValidationParameters.NameClaimType = "name";
+    options.TokenValidationParameters.RoleClaimType = "role";
+    options.Scope.Add("mango");
+    options.SaveTokens = true;
+
+});
+
+// Add services to the container.
 
 var app = builder.Build();
 
@@ -25,8 +58,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

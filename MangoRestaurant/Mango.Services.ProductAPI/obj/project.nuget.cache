@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4DHf2qDPKy3lV0YwqNOeHz9yzF9XHtSr+7RvtVUj6qvjtYIQLXPC7ZrEwtL9Bi2CQByaIeDpXkjkDXwk5qKg6A==",
+  "dgSpecHash": "MVlqyg//yK6wN3VtsKYfWxfSW0zk6H/NJNS+A1wBGNwpWP28rOjrUoUx29SPsbBRQKdkh6XFz+KhCLZM+dZsIg==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\.NET Core Microservices - The Complete Guide (.NET 6 MVC)\\MangoRestaurant\\MangoRestaurant\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
+  "projectFilePath": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Services.ProductAPI\\Mango.Services.ProductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AL_hamd\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\AL_hamd\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

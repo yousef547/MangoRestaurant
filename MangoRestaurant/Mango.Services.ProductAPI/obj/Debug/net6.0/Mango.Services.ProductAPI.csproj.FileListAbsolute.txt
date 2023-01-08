@@ -63,3 +63,13 @@ D:\New folder\.NET Core Microservices - The Complete Guide (.NET 6 MVC)\MangoRes
 D:\New folder\.NET Core Microservices - The Complete Guide (.NET 6 MVC)\MangoRestaurant\MangoRestaurant\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.pdb
 D:\New folder\.NET Core Microservices - The Complete Guide (.NET 6 MVC)\MangoRestaurant\MangoRestaurant\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.genruntimeconfig.cache
 D:\New folder\.NET Core Microservices - The Complete Guide (.NET 6 MVC)\MangoRestaurant\MangoRestaurant\Mango.Services.ProductAPI\obj\Debug\net6.0\ref\Mango.Services.ProductAPI.dll
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.csproj.AssemblyReference.cache
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.AssemblyInfoInputs.cache
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.AssemblyInfo.cs
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.csproj.CoreCompileInputs.cache
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.dll
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ProductAPI\obj\Debug\net6.0\refint\Mango.Services.ProductAPI.dll
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ProductAPI\obj\Debug\net6.0\Mango.Services.ProductAPI.pdb
