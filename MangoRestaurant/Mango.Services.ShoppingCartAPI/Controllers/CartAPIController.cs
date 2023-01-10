@@ -1,4 +1,5 @@
-﻿using Mango.Services.ShoppingCartAPI.Message;
+﻿using Mango.MessageBus;
+using Mango.Services.ShoppingCartAPI.Message;
 using Mango.Services.ShoppingCartAPI.Model.Dto;
 using Mango.Services.ShoppingCartAPI.Repository;
 using Microsoft.AspNetCore.Mvc;
@@ -10,9 +11,11 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
     public class CartAPIController : Controller
     {
         private readonly ICartRepository _cartRepository;
+        private readonly IMessageBus _messageBus;
         protected ResponseDto _response;
-        public CartAPIController(ICartRepository cartRepository)
+        public CartAPIController(ICartRepository cartRepository, IMessageBus messageBus)
         {
+            _messageBus = messageBus;
             _cartRepository = cartRepository;
             this._response = new ResponseDto();
         }
@@ -21,13 +24,14 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
         {
             try
             {
-                CartDto cartDto = await _cartRepository.GetCartByUserId(userId); 
+                CartDto cartDto = await _cartRepository.GetCartByUserId(userId);
                 _response.Result = cartDto;
 
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
-                _response.IsSuccess= false; 
-                _response.ErrorMessages= new List<string> { ex.Message };
+                _response.IsSuccess = false;
+                _response.ErrorMessages = new List<string> { ex.Message };
             }
             return _response;
         }
@@ -72,7 +76,7 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
         {
             try
             {
-                bool isSuccess = await _cartRepository.ApplyCuopon(cartDto.CartHeader.UserId,cartDto.CartHeader.CouponCode);
+                bool isSuccess = await _cartRepository.ApplyCuopon(cartDto.CartHeader.UserId, cartDto.CartHeader.CouponCode);
                 _response.Result = isSuccess;
 
             }
@@ -103,7 +107,7 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
 
 
         [HttpPost("RemoveCart")]
-        public async Task<object> RemoveCart([FromBody]int cartId)
+        public async Task<object> RemoveCart([FromBody] int cartId)
         {
             try
             {
@@ -125,11 +129,12 @@ namespace Mango.Services.ShoppingCartAPI.Controllers
             try
             {
                 CartDto cartDto = await _cartRepository.GetCartByUserId(checkoutHeader.UserId);
-                if(cartDto == null)
+                if (cartDto == null)
                 {
                     return BadRequest();
                 }
                 checkoutHeader.CartDetails = cartDto.CartDetails;
+                await _messageBus.PublishMessage(checkoutHeader, "checkoutmessagetopic");
 
             }
             catch (Exception ex)

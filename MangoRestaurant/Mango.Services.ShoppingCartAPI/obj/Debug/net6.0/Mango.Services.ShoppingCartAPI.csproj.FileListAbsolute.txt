@@ -130,3 +130,15 @@ D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\obj
 D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\Mango.Services.ShoppingCartAPI.pdb
 D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\Mango.Services.ShoppingCartAPI.genruntimeconfig.cache
 D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\obj\Debug\net6.0\ref\Mango.Services.ShoppingCartAPI.dll
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Microsoft.Azure.Amqp.dll
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Microsoft.Azure.ServiceBus.dll
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Microsoft.Azure.Services.AppAuthentication.dll
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Mango.MessageBus.dll
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Mango.MessageBus.pdb
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Azure.Core.dll
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Azure.Core.Amqp.dll
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Azure.Messaging.ServiceBus.dll
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Services.ShoppingCartAPI\bin\Debug\net6.0\System.Memory.Data.dll
