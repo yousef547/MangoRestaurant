@@ -24,6 +24,12 @@ namespace Mango.Web.Controllers
             return View(await LoadCartDtoBasedOnLoggedUser());
         }
 
+
+        [HttpGet]
+        public async Task<IActionResult> CheckOut()
+        {
+            return View(await LoadCartDtoBasedOnLoggedUser());
+        }
         public async Task<IActionResult> Remove(int cartDetailsId)
         {
             var UserId = User.Claims.Where(u => u.Type == "sub")?.FirstOrDefault()?.Value;
@@ -59,6 +65,31 @@ namespace Mango.Web.Controllers
             {
                 return RedirectToAction(nameof(CartIndex));
             }
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Checkout(CartDto cartDto)
+        {
+            try
+            {
+                var accessToken = await HttpContext.GetTokenAsync("access_token");
+                var response = await _cartServices.Checkout<ResponseDto>(cartDto.CartHeader, accessToken);
+                if (!response.IsSuccess)
+                {
+                    TempData["Error"] = response.DisplayMassage;
+                    return RedirectToAction(nameof(Checkout));
+                }
+                return RedirectToAction(nameof(Confirmation));
+            }
+            catch (Exception e)
+            {
+                return View(cartDto);
+            }
+        }
+
+        public async Task<IActionResult> Confirmation()
+        {
             return View();
         }
         private async Task<CartDto> LoadCartDtoBasedOnLoggedUser()
