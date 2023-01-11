@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wW1Jjvr45D8C5fqmg1YSfN63seXXkQXhK8PzPkYrEauT/JqbzAJ9pb0jNga+QQm6pDHon/aZF+Crlt+x28zuxg==",
+  "dgSpecHash": "/ro5evrsDj2QeqxD0kcLYMFoS+tQJBjF86A7z6gtMNJ6XwAib81rtl2O2iGfU8gVDYiVLYxd4PgWqt223mr5tQ==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.MessageBus\\Mango.MessageBus.csproj",
+  "projectFilePath": "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.MessageBus\\Mango.MessageBus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AL_hamd\\.nuget\\packages\\azure.core\\1.13.0\\azure.core.1.13.0.nupkg.sha512",
     "C:\\Users\\AL_hamd\\.nuget\\packages\\azure.core.amqp\\1.1.0-beta.1\\azure.core.amqp.1.1.0-beta.1.nupkg.sha512",

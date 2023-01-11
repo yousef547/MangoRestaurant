@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QIMMLPk0mT83MY0z+qNt83IufStsQ6DrFYz+I5IyCHSPaIKoBV1bWU9a+++K7uwcLGi43SeOg5GOZqTtpg7Zgw==",
+  "dgSpecHash": "oD+mF2I/d0+aHw1sy5WG3F1Vw6BLwInIjm7n4XYWMWO4kN4qLvc3opobXP5F1Vu58M8Peasp7MKf3DnWRRQgwA==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj",
+  "projectFilePath": "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.Web\\Mango.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AL_hamd\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\AL_hamd\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

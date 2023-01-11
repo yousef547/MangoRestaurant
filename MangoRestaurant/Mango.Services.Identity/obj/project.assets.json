@@ -3176,11 +3176,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Services.Identity\\Mango.Services.Identity.csproj",
+      "projectUniqueName": "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.Services.Identity\\Mango.Services.Identity.csproj",
       "projectName": "Mango.Services.Identity",
-      "projectPath": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Services.Identity\\Mango.Services.Identity.csproj",
+      "projectPath": "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.Services.Identity\\Mango.Services.Identity.csproj",
       "packagesPath": "C:\\Users\\AL_hamd\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Services.Identity\\obj\\",
+      "outputPath": "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.Services.Identity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AL_hamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3254,7 +3254,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.308\\RuntimeIdentifierGraph.json"
       }
     }
   }

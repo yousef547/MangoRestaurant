@@ -7807,11 +7807,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
+      "projectUniqueName": "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
       "projectName": "Mango.Services.ShoppingCartAPI",
-      "projectPath": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
+      "projectPath": "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
       "packagesPath": "C:\\Users\\AL_hamd\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Services.ShoppingCartAPI\\obj\\",
+      "outputPath": "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.Services.ShoppingCartAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AL_hamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7828,8 +7828,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.MessageBus\\Mango.MessageBus.csproj": {
-              "projectPath": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.MessageBus\\Mango.MessageBus.csproj"
+            "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.MessageBus\\Mango.MessageBus.csproj": {
+              "projectPath": "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.MessageBus\\Mango.MessageBus.csproj"
             }
           }
         }
@@ -7901,7 +7901,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.308\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AR164H5HBSOK4J2/9rxEMqSe1SaYqvfOzNgHwaMWiaR4YEdR7H6uWaCY/MJZzVl8JG5bWo22YEgQPgA19O1FvA==",
+  "dgSpecHash": "xkAmjbCTyH4RpEoI1bZpmZaWm/vcxP2dGQovaCTo3vJ6rJmFdeT/yOaas8tGCT2keLi+wcQBiEHeB9owNQO2bg==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Services.Identity\\Mango.Services.Identity.csproj",
+  "projectFilePath": "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.Services.Identity\\Mango.Services.Identity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AL_hamd\\.nuget\\packages\\duende.identityserver\\5.1.1\\duende.identityserver.5.1.1.nupkg.sha512",
     "C:\\Users\\AL_hamd\\.nuget\\packages\\duende.identityserver.aspnetidentity\\5.1.1\\duende.identityserver.aspnetidentity.5.1.1.nupkg.sha512",

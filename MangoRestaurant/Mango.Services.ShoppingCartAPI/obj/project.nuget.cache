@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6B+9K/iIbSLOwlYGzPwjwW6nHkK0FNegPSIGGBaMr9iZvWz5QoW8MI8f5kjiZIVwqm1RdoPh1SGHvfd6roK22g==",
+  "dgSpecHash": "XBvH5fMrw3hy11YSO+NeIXnIreH1DQ4KzHXRuKI3eDYcLwWCXIK7NNdCbeNr/nyGlS4hMn4+RsywGNCZ/vLBCg==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\MangoRestaurant\\MangoRestaurant\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
+  "projectFilePath": "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.Services.ShoppingCartAPI\\Mango.Services.ShoppingCartAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AL_hamd\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\AL_hamd\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
