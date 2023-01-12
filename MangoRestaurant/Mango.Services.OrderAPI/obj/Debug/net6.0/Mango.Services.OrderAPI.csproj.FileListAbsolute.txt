@@ -140,3 +140,9 @@ D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Services.OrderAPI\obj\De
 D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Services.OrderAPI\obj\Debug\net6.0\Mango.Services.OrderAPI.pdb
 D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Services.OrderAPI\obj\Debug\net6.0\Mango.Services.OrderAPI.genruntimeconfig.cache
 D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Services.OrderAPI\obj\Debug\net6.0\ref\Mango.Services.OrderAPI.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Services.OrderAPI\bin\Debug\net6.0\Microsoft.Azure.ServiceBus.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Services.OrderAPI\bin\Debug\net6.0\Microsoft.Azure.Services.AppAuthentication.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Services.OrderAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Services.OrderAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Services.OrderAPI\bin\Debug\net6.0\Mango.MessageBus.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Services.OrderAPI\bin\Debug\net6.0\Mango.MessageBus.pdb

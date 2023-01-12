@@ -70,3 +70,39 @@ D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\refint\
 D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.pdb
 D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.genruntimeconfig.cache
 D:\New folder\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\ref\Mango.Web.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\appsettings.Development.json
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\appsettings.json
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Mango.Web.staticwebassets.runtime.json
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Mango.Web.exe
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Mango.Web.deps.json
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Mango.Web.runtimeconfig.json
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Mango.Web.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Mango.Web.pdb
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.csproj.AssemblyReference.cache
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.AssemblyInfoInputs.cache
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.AssemblyInfo.cs
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.csproj.CoreCompileInputs.cache
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.RazorAssemblyInfo.cache
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.RazorAssemblyInfo.cs
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\staticwebassets.build.json
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\staticwebassets.development.json
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\scopedcss\bundle\Mango.Web.styles.css
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\scopedcss\projectbundle\Mango.Web.bundle.scp.css
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.csproj.CopyComplete
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\refint\Mango.Web.dll
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.pdb
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\Mango.Web.genruntimeconfig.cache
+D:\New folder (2)\MangoRestaurant\MangoRestaurant\Mango.Web\obj\Debug\net6.0\ref\Mango.Web.dll
