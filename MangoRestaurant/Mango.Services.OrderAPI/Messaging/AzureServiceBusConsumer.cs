@@ -38,7 +38,7 @@ namespace Mango.Services.OrderAPI.Messaging
 
 
             var client = new ServiceBusClient(ServiceBusConectionString);
-            checkoutProcessor = client.CreateProcessor(CheckoutMessageTopic, SubscriptionCheckout);
+            checkoutProcessor = client.CreateProcessor(CheckoutMessageTopic);
             orderUpdatePaymentResultTpoic= client.CreateProcessor(OrderUpdatePaymentResultTpoic, SubscriptionCheckout);
 
         }
@@ -110,6 +110,7 @@ namespace Mango.Services.OrderAPI.Messaging
                 ExpiryMothYear = orderHeader.ExpiryMonthYear,
                 OrderId = orderHeader.OrderHeaderId,
                 OrderTotle = orderHeader.OrderTotle,
+                Email = orderHeader.Email,
             };
 
             try
