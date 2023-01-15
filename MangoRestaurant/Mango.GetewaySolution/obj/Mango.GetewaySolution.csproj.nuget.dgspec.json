@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.GetewaySolution\\Mango.GetewaySolution.csproj": {}
+  },
+  "projects": {
+    "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.GetewaySolution\\Mango.GetewaySolution.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.GetewaySolution\\Mango.GetewaySolution.csproj",
+        "projectName": "Mango.GetewaySolution",
+        "projectPath": "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.GetewaySolution\\Mango.GetewaySolution.csproj",
+        "packagesPath": "C:\\Users\\AL_hamd\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder (2)\\MangoRestaurant\\MangoRestaurant\\Mango.GetewaySolution\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AL_hamd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.308\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

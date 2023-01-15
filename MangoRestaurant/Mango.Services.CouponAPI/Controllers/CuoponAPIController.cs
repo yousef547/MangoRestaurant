@@ -6,6 +6,7 @@ namespace Mango.Services.CouponAPI.Controllers
 {
     [ApiController]
     [Route("api/cuopon")]
+
     public class CuoponAPIController : Controller
     {
         private readonly ICouponRepository _cuoponRepository;
